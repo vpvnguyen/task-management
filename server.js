@@ -1,17 +1,21 @@
 const express = require("express");
 const app = express();
-const tasksController = "./controller/tasks.controller";
+const cors = require("cors");
+const tasksController = require("./controller/tasks.controller");
+
+const pool = require("./config/database");
+
 const PORT = 5000;
 
 // middleware
-app.use(express.json()); // parse json from incoming requests
+app.use(cors());
+app.use(express.json()); // parses json from incoming requests
 
 // routes
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to the Task Management Server!" });
 });
 
-// controllers
 app.use(tasksController);
 
-app.app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`));
