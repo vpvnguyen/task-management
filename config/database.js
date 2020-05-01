@@ -7,7 +7,7 @@ const pool = new Pool({
   user: "postgres",
   host: "localhost",
   port: 5432,
-  database: "task-management-system",
+  database: "task_management_system",
 });
 
 module.exports = pool;
