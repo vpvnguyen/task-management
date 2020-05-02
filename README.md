@@ -16,7 +16,20 @@ Implementation of how the entire full stack application should flow - connecting
 
 ![Stack Flow](/documentation/Stack_Flow.png)
 
+## Technologies
+
+- React
+- Node / Express
+- PostgreSQL
+- Bootstrap
+- npm nodemon
+- npm pg
+- npm concurrently
+- npm cors
+
 ### Why this stack?
+
+- Great question. The following should provide insight regarding why this stack is used.
 
 #### Client - React
 
@@ -74,14 +87,3 @@ Below are requirements and how to setup to run this application locally.
   > React and Express client should start simaltaneously when executing `npm start`.
 - Navigate to `http://localhost:3000` for client
 - Navigate to `http://localhost:5000` for express api server
-
-## Technologies
-
-- React
-- Node / Express
-- PostgreSQL
-- Bootstrap
-- npm nodemon
-- npm pg
-- npm concurrently
-- npm cors
