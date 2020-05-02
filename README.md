@@ -40,7 +40,7 @@ How the application should flow from the user's experience to business logic.
 
 ![Application Flow](/documentation/Application_Flow.png)
 
-## Application Status
+## Application Progression
 
 The application is currently under development. Current application progression and features:
 
