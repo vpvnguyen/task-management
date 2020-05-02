@@ -10,19 +10,19 @@ Users are able to:
 - Filter tasks
 - Search for a task
 
-### Stack Flow
+## Stack Flow
 
 Implementation of how the entire full stack application should flow - connecting the front end, back end, and SQL database of the program.
 
 ![Stack Flow](/documentation/Stack_Flow.png)
 
-### Application Flow
+## Application Flow
 
 How the application should flow from the user's experience to business logic.
 
 ![Application Flow](/documentation/Application_Flow.png)
 
-### Requirements
+## Application Status
 
 The application is currently under development. Current application progression and features:
 
@@ -52,18 +52,15 @@ Below are requirements and how to setup to run this application locally.
 - git clone `https://github.com/vpvnguyen/task-management.git`
 - cd into `task-management`
 - run in terminal: `npm install`
-- run in termainl: `npm start`
+- run in terminal: `npm start`
   > This should install all packages and dependencies. With npm concurrently setup within the `package.json`, the React and Express client should start simaltaneously when executing `npm start`.
 
-### Technologies
+## Technologies
 
 - React
 - Node / Express
 - PostgreSQL
 - Bootstrap
-
-### Dependencies
-
 - npm nodemon
 - npm pg
 - npm concurrently
