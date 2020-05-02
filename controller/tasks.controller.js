@@ -33,12 +33,12 @@ router.post("/createTask", async (req, res) => {
 router.put("/editTask/:id", async (req, res) => {
   try {
     const { id } = req.params;
-    const { description } = req.body;
+    const { description, category } = req.body;
     const editTask = await pool.query(
-      "UPDATE tasks SET description = $1 WHERE id = $2",
-      [description, id]
+      "UPDATE tasks SET description = $1, category = $2 WHERE id = $3",
+      [description, category, id]
     );
-    res.json("Task was updated");
+    res.json("Task updated");
   } catch (err) {
     console.error(err.message);
     res.sendStatus(500);
