@@ -40,8 +40,6 @@ const ListTasks = () => {
         <thead>
           <tr>
             <th>Description</th>
-            <th>Edit</th>
-            <th>Delete</th>
           </tr>
         </thead>
         <tbody>
