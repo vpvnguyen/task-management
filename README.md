@@ -12,15 +12,19 @@ Users are able to:
 
 ### Stack Flow
 
+Implementation of how the entire full stack application should flow - connecting the front end to back end of the program.
+
 ![Stack Flow](/documentation/Stack_Flow.png)
 
 ### Application Flow
+
+How the application should flow from the user's experience to business logic.
 
 ![Application Flow](/documentation/Application_Flow.png)
 
 ### Requirements
 
-The application is currently under development. Curent application progression and features:
+The application is currently under development. Current application progression and features:
 
 - See all tasks
 - Create a task
@@ -32,5 +36,5 @@ The application is currently under development. Curent application progression a
 ### Technologies
 
 - React
-- Node
+- Node / Express
 - PostgreSQL
