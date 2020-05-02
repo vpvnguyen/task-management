@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import EditTask from "./EditTasks";
 
 const ListTasks = () => {
   const [tasks, setTasks] = useState([]);
@@ -14,7 +15,7 @@ const ListTasks = () => {
     }
   };
 
-  //   delete todo
+  //   delete task
   const deleteTaskByID = async (id) => {
     try {
       const deleteTaskByID = await fetch(
@@ -39,6 +40,7 @@ const ListTasks = () => {
       <table className="table mt-5 text-center">
         <thead>
           <tr>
+            <th>Task ID</th>
             <th>Description</th>
             <th>Category</th>
           </tr>
@@ -46,14 +48,15 @@ const ListTasks = () => {
         <tbody>
           {tasks.map((task, index) => (
             <tr key={index}>
+              <td>{task.id}</td>
               <td>{task.description}</td>
               <td>{task.category}</td>
               <td>
-                <button>edit</button>
+                <EditTask task={task} />
               </td>
               <td>
                 <button
-                  className="btn btn-danger"
+                  className="btn btn-outline-danger"
                   onClick={() => deleteTaskByID(task.id)}
                 >
                   Delete
