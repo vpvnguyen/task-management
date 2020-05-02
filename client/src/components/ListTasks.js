@@ -40,12 +40,14 @@ const ListTasks = () => {
         <thead>
           <tr>
             <th>Description</th>
+            <th>Category</th>
           </tr>
         </thead>
         <tbody>
           {tasks.map((task, index) => (
             <tr key={index}>
               <td>{task.description}</td>
+              <td>{task.category}</td>
               <td>
                 <button>edit</button>
               </td>
