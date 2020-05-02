@@ -29,21 +29,11 @@ Implementation of how the entire full stack application should flow - connecting
 
 ### Why this stack?
 
-- Great question. The following should provide insight regarding why this stack is used.
-
-#### Client - React
-
-- React is a very fast and robust client application that allows flexibility in developing and scaling the front end.
-- Large support with strong communities, libraries, and tools.
-
-#### Server - Node / Express
-
-- Fast and highly scalable server built upon Node.js which is a runtime environment for JavaScript. Serves as a ubiquitous language from front to back end development.
-
-#### Database - Postgres
-
-- Reliable and robust SQL database that also supports document storage using JSONB.
-- Developers can leverage the power of SQL queries as well as flexible document storage.
+- JavaScript serves as a ubiquitous language from front to back end development.
+- Single threaded,
+- React is a robust client side technology that allows flexibility in developing and scaling the front end from it's large support within strong communities, libraries, and tools.
+- Fast and highly scalable server built upon Node.js which serves as a runtime environment - allowing JavaScript to run outside of the browser.
+- PostgreSQL is an object relational database that leverages the power of relational SQL queries as well as flexible document storage using JSONB.
 
 ## Application Flow
 
