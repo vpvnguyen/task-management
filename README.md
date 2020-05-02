@@ -16,6 +16,22 @@ Implementation of how the entire full stack application should flow - connecting
 
 ![Stack Flow](/documentation/Stack_Flow.png)
 
+### Why this stack?
+
+#### Client - React
+
+- React is a very fast and robust client application that allows flexibility in developing and scaling the front end.
+- Large support with strong communities, libraries, and tools.
+
+#### Server - Node / Express
+
+- Fast and highly scalable server built upon Node.js which is a runtime environment for JavaScript. Serves as a ubiquitous language across front to back end development.
+
+#### Database - Postgres
+
+- Reliable and robust SQL database that also supports document storage using JSONB.
+- Developers can leverage the power of SQL queries as well as flexible document storage.
+
 ## Application Flow
 
 How the application should flow from the user's experience to business logic.
