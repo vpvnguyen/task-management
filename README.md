@@ -51,6 +51,8 @@ The application is currently under development. Current application progression 
 - ~Filter tasks~
 - ~Search for a task~
 - ~Data Validation~
+- ~Define data model to handle DB actions~
+- ~Ensure full responsive design~
 
 ## Requirements and Setup
 
