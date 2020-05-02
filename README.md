@@ -12,7 +12,7 @@ Users are able to:
 
 ### Stack Flow
 
-Implementation of how the entire full stack application should flow - connecting the front end to back end of the program.
+Implementation of how the entire full stack application should flow - connecting the front end, back end, and SQL database of the program.
 
 ![Stack Flow](/documentation/Stack_Flow.png)
 
@@ -32,9 +32,39 @@ The application is currently under development. Current application progression 
 - Delete a task
 - ~Filter tasks~
 - ~Search for a task~
+- ~Data Validation~
+
+## Requirements and Setup
+
+Below are requirements and how to setup to run this application locally.
+
+### Requirements
+
+- Node.js
+- NPM
+- PostgreSQL
+  > Source: https://postgresapp.com/
+  > Follow and install postgresql according to the source instructions. Here, we will be using PostgreSQL as an object relational database for this application.
+  > Ensure that PostgreSQL is running locally. The application will be using Postgres default account.
+
+### Setup
+
+- git clone `https://github.com/vpvnguyen/task-management.git`
+- cd into `task-management`
+- run in terminal: `npm install`
+- run in termainl: `npm start`
+  > This should install all packages and dependencies. With npm concurrently setup within the `package.json`, the React and Express client should start simaltaneously when executing `npm start`.
 
 ### Technologies
 
 - React
 - Node / Express
 - PostgreSQL
+- Bootstrap
+
+### Dependencies
+
+- npm nodemon
+- npm pg
+- npm concurrently
+- npm cors
