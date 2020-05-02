@@ -51,10 +51,13 @@ Below are requirements and how to setup to run this application locally.
 
 - git clone `https://github.com/vpvnguyen/task-management.git`
 - cd into `task-management`
-- run in terminal: `npm run install`
-  > This should install all packages and dependencies for both server and client using npm concurrently.
-- run in terminal: `npm run dev`
+- Install server by running in terminal: `npm install`
+- Install React client by running in terminal: `npm run client-install`
+  > These two commands should install all packages and dependencies for both server and client.
+- To start development server locally, run in terminal: `npm start`
   > React and Express client should start simaltaneously when executing `npm start`.
+- Navigate to `http://localhost:3000` for client
+- Navigate to `http://localhost:5000` for express api server
 
 ## Technologies
 
