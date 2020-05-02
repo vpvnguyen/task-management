@@ -64,6 +64,7 @@ Below are requirements and how to setup to run this application locally.
   > Source: https://postgresapp.com/
   > Follow and install PostgreSQL according to the source instructions for Mac users. Here, we will be using PostgreSQL as an object relational database for this application.
   > Ensure that PostgreSQL is running locally. The application will be using Postgres default account.
+- Use queries in `./config/database.sql` to seed database with mock data.
 
 ### Setup
 
