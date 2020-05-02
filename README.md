@@ -1,10 +1,7 @@
 # Task Management System
 
 A simple program which manages a user's tasks.
-
-## Application
-
-In this application, users are able to:
+Users are able to:
 
 - See all tasks
 - Create a task
@@ -12,6 +9,14 @@ In this application, users are able to:
 - Delete a task
 - Filter tasks
 - Search for a task
+
+### Stack Flow
+
+![Stack Flow](/documentation/Stack_Flow.png)
+
+### Application Flow
+
+![Application Flow](/documentation/Application_Flow.png)
 
 ### Technologies
 
