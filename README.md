@@ -44,16 +44,17 @@ Below are requirements and how to setup to run this application locally.
 - NPM
 - PostgreSQL
   > Source: https://postgresapp.com/
-  > Follow and install postgresql according to the source instructions. Here, we will be using PostgreSQL as an object relational database for this application.
+  > Follow and install PostgreSQL according to the source instructions for Mac users. Here, we will be using PostgreSQL as an object relational database for this application.
   > Ensure that PostgreSQL is running locally. The application will be using Postgres default account.
 
 ### Setup
 
 - git clone `https://github.com/vpvnguyen/task-management.git`
 - cd into `task-management`
-- run in terminal: `npm install`
-- run in terminal: `npm start`
-  > This should install all packages and dependencies. With npm concurrently setup within the `package.json`, the React and Express client should start simaltaneously when executing `npm start`.
+- run in terminal: `npm run install`
+  > This should install all packages and dependencies for both server and client using npm concurrently.
+- run in terminal: `npm run dev`
+  > React and Express client should start simaltaneously when executing `npm start`.
 
 ## Technologies
 

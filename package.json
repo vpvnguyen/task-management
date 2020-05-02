@@ -4,6 +4,7 @@
   "description": "A simple program which manages a user's task",
   "main": "server.js",
   "scripts": {
+    "install": "npm install && cd client && npm install",
     "client": "cd client && npm start",
     "server": "nodemon server.js",
     "start": "concurrently \"npm run server\" \"npm run client\""
