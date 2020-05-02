@@ -29,8 +29,7 @@ Implementation of how the entire full stack application should flow - connecting
 
 ### Why this stack?
 
-- JavaScript serves as a ubiquitous language from front to back end development.
-- Single threaded,
+- JavaScript serves as a ubiquitous language from front to back end development capable of handling high volumes of concurrent requests and events.
 - React is a robust client side technology that allows flexibility in developing and scaling the front end from it's large support within strong communities, libraries, and tools.
 - Fast and highly scalable server built upon Node.js which serves as a runtime environment - allowing JavaScript to run outside of the browser.
 - PostgreSQL is an object relational database that leverages the power of relational SQL queries as well as flexible document storage using JSONB.
