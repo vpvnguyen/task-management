@@ -38,7 +38,7 @@ Implementation of how the entire full stack application should flow - connecting
 
 #### Server - Node / Express
 
-- Fast and highly scalable server built upon Node.js which is a runtime environment for JavaScript. Serves as a ubiquitous language across front to back end development.
+- Fast and highly scalable server built upon Node.js which is a runtime environment for JavaScript. Serves as a ubiquitous language from front to back end development.
 
 #### Database - Postgres
 
